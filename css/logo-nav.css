@@ -1,0 +1,189 @@
+/*!
+ * Start Bootstrap - Logo Nav (https://startbootstrap.com/template-overviews/logo-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logo-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.nav-color{
+  background: #dcf442;
+}
+
+.btn-nav-color{
+  background:red;
+}
+
+a{
+  color:brown;
+}
+a:hover{
+  color: white;
+}
+.blender{
+  margin-top:auto;
+  height: 50px;
+  background-color: #dddddd;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.b{
+  border-right-color: white;
+}
+
+.location-container{
+  width: 300px;
+
+}
+
+.location-input{
+  margin-top: 8px;
+  border:1px solid;
+  width: 80%;
+  height: 30px;
+  min-width: 200px;
+  text-align: center;
+  border-style: none;
+  border-radius: 4px;
+
+}
+.search-btn{
+  margin-top:-4px;
+  width: 10%
+}
+
+.slider-size{
+  height: 300px;
+  width: 100%;
+}
+
+.products-list{
+  margin-top: 100px;
+}
+
+.store-top{
+  border-top: 1px solid;
+  border-color: #78C2AD;
+
+  padding-top: 15px;
+  margin-bottom: 10px;
+  z-index: 100;
+}
+
+.store{
+  border-top: 1px solid;
+  border-color: #78C2AD;
+  margin-top: 10px;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  z-index: 100;
+}
+
+.slide-show{
+  margin-top: 50px;
+}
+
+.buy-btn-position{
+  align:right;
+}
+
+.commm{
+  border: 1px solid red;
+}
+
+.divider{
+  border: 1px solid red;
+  position: ;
+  margin-top:auto;
+  height:1px;
+  width: 100%;
+
+}
+
+.store-copoun{
+  background-color;;
+  height: auto;
+  max-width: 270px;
+  border-left:1px solid red;
+}
+
+.name-store{
+  margin-top: 100px;
+
+}
+
+.store-all-copoun{
+  border: 2px solid #78C2AD;
+  border-radius: 2%;
+  float: right;
+  text-align: right;
+  margin-top: 0px;
+  /* height: 70%; */
+}
+
+.copoun{
+  width: 100%;
+  /* position: fixed; */
+  background-color: white;
+  height: 350px;
+  /* z-index: 100; */
+  margin-bottom: -15px;
+}
+
+.nav-space{
+  width:52%;
+}
+
+.nav-space-store{
+  width: 20%;
+}
+
+
+.nav-item-style{
+  /* width: 30px; */
+  /* margin-left:1em; */
+  color: white;
+  text-align: right;
+}
+
+@media (min-width:250px) {
+  .nav-item-style{
+    width: auto;
+    /* margin-left:1em; */
+    color: white;
+    text-align: right;
+    margin-right: 50px;
+  }
+}
+
+.brand-nav{
+  margin-left: 12px;
+}
+.nav-item-style:hover{
+  text-decoration: none;
+  color: gray;
+}
+
+@media (width:100px) {
+    .nav-space{
+      max-width: 30px;
+    }
+}
+
+.navbar-nav>li {
+    float: right;
+}
+
+.btn-align-left{
+  margin-right: 20px;
+}
