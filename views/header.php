@@ -7,6 +7,7 @@
 //   $user = $db->get('users');
 $stores = $db->get('store');
 // $stores = [];
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

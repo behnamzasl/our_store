@@ -1,4 +1,5 @@
 <?php 
+    // session_start();
     $email=$password=$confirm_password="";
     $login_err=$username_err=$password_err=$confirm_password_err="";
     // echo ("salaaaaaaaaaam");

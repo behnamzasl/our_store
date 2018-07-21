@@ -3,7 +3,7 @@
 
     <!-- <br> -->
 
-
+<!--
 
     <div class="slide-show" uk-slider="autoplay:true autoplay-interval: 1000">
 

@@ -1,69 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include './views/header.php' ?>
 
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>سرویس خرید گروهی</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-
-    <!--  -->
-    <link rel="stylesheet" href="css/uikit.min.css" />
-
-    <!-- Custom styles for this template -->
-    <link href="css/logo-nav.css" rel="stylesheet">
-
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
-
-  </head>
-  <body style="margin-top:-56px;">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand brand-nav" href="#">کوپن</a>
-      <form class="form-inline my-2 my-lg-0" style="margin-left:5px;">
-        <input class="form-control mr-sm-2 uk-text-right" type="text" placeholder="چه محصولی میخوای؟">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">جست و جو</button>
-      </form>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginOrRegister">ورود/ثبت نام</button>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class=" collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav mr-auto float-right">
-          <li class=" active">
-            <a class="nav-item-style" href="#"> <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="">
-            <a class="nav-item-style " href="#">لیست فروشگاه ها</a>
-          </li>
-          <li class="">
-            <a class="nav-item-style " href="#"> قوانین</a>
-          </li>
-          <li class="">
-            <a class="nav-item-style " href="#">سرویس های ما</a>
-          </li>
-          <!-- <li class="">
-            <button class="btn btn-danger " type="button" > خرید بن  </button>
-          </li> -->
-
-        </ul>
-
-      </div>
-
-    </nav>
-
-
-
+<?php
+    $user_id = $_GET['id'];
+    if(isset($_SESSION) && $_SESSION['id'] != $user_id){
+?>
+    <div id="main" class="">
+            <h1 >
+               متاسفانه صفحه مورد نظر یافت نشد <i class="fa fa-frown-o"></i>
+            </h1>
+    </div>
+    <?php }else{ ?>  
+<?php include './views/navbar.php' ?>    
 
     <div class="container">
         <div class="row">
@@ -118,3 +65,4 @@
             </div>
         </div>
     </div>
+    <?php } ?>

@@ -42,8 +42,14 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 
-// session_start();
-
+if (isset($_SESSION)){
+    // session_start();
+}else{
+    session_start();
+    $_SESSION['loggedin'] = false;
+    $_SESSION['email'] = '';
+    $_SESSION['id'] = '';
+}
 
 // $project_name = "market";
 // $root_path = $_SERVER['DOCUMENT_ROOT'] . "/" . $project_name;

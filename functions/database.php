@@ -40,7 +40,9 @@ $brands_table = array(/////
 $copons_table = Array(/////
     'store_id' => 'int(11) not null',
     'price' => 'int(11) not null',
-    'value' => 'int(11) not null'
+    'p_price' => 'varchar(256) not null',
+    'value' => 'int(11) not null',
+    'p_value' => 'varchar(256)'
 );
 
 $users_copon_table = Array(///////
